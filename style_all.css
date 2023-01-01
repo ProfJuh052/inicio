@@ -1,0 +1,163 @@
+body{
+    cursor: auto;
+    background: #000;
+    color: #fff;
+}
+
+.menu{
+    width: 50%;
+    max-height: 0;
+}
+
+.navbar{
+    font-family: 'Amatic SC', cursive;
+    padding: 15px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo{
+    margin-right: auto;
+}
+
+.back{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.back:hover{
+    color:#f00;
+    text-decoration: underline;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-size: 24px;
+    flex-direction: column;
+    align-items: left;
+    padding: 36px;
+}
+
+.red:hover{
+    font-weight: bold;
+    color: #f00;
+}
+
+.green:hover{
+    font-weight: bold;
+    color: #0f0;
+}
+
+.blue:hover{
+    font-weight: bold;
+    color: #00f;
+}
+
+.corpo{
+    flex-wrap: wrap;
+    margin: -80px 0 0 120px;
+}
+
+.corpo2{
+    flex-wrap: wrap;
+    margin: -80px 0 0 0px;
+}
+
+.text h1{
+    font-family: 'Amatic SC', cursive;
+    color: #f00;
+    padding: 24px;
+    font-size: 64px; 
+    text-align: center;
+}
+
+.text h2{
+    font-family: 'Amatic SC', cursive;
+    color: #0f0;
+    padding: 24px;
+    font-size: 64px; 
+    text-align: center;
+}
+
+.contato h3{
+    font-family: 'Amatic SC', cursive;
+    color: #00f;
+    padding: 24px;
+    font-size: 64px; 
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+}
+
+.text p{
+    font-family: 'Montserrat', sans-serif;
+    padding: 24px;
+    font-size: 24px;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.contato p{
+    font-family: 'Montserrat', sans-serif;
+    padding: 24px;
+    font-size: 24px;
+    text-align: center;
+    text-indent: 2em;
+}
+
+.information{
+   font-weight: bold;
+}
+
+.link{
+    color: #0f0;
+}
+
+.link:hover{
+    color: #f00;
+}
+
+.poesia h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #f00;
+    margin-top: 24px;
+    padding: 24px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.poesia p{
+    font-family: 'Montserrat', sans-serif;
+    padding: 24px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.rodape{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 40px 0;
+    background: url(bgFOOTER.png);
+}
+
+.rodapetext{
+    font-size: 16px;
+    margin: 20px 0 0 0;
+}
+
+@media screen and
+(max-width: 600px){
+    .navbar label{
+        display: inline-flex;
+        align-items: center;
+    }
+}
